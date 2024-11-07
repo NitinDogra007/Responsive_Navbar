@@ -63,12 +63,14 @@
 		width: 100%;
 		background-color: purple; */
 
+		/* this bit of code allows transitions to be added */
 		display: flex;
 		flex-direction: column;
 		width: 100%;
 		background-color: purple;
 		max-height: 0;
 		overflow: hidden;
+		/* remove this to make the functionality faster */
 		transition: max-height 0.5s ease-in-out;
 	}
 
